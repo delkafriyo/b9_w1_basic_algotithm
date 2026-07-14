@@ -1,5 +1,6 @@
 FUNCTION HitungTotalBayar
-DEKLARASI pembelian, diskon, totalBayar : int 
+DEKLARASI	pembelian : float
+			diskon, totalBayar : float 
 BEGIN
 	INPUT(pembelian)
 	IF (pembelian > 1000000) THEN 
