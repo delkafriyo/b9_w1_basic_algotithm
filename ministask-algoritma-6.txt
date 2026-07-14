@@ -1,13 +1,15 @@
 FUNCTION HitungTotalBayar
-DECLARE	pembelian : int,
-			diskon, totalBayar : float 
+DECLARE	pembelian, totalBayar : int,
+		diskon : float 
 BEGIN
 	INPUT(pembelian)
 	IF (pembelian > 1000000) THEN 
-	diskon <- 0,1
+		diskon <- 0,1
 	ELSEIF (pembelian >= 500000) THEN
-	diskon <- 0,05
-	ELSE diskon <- 0
+		diskon <- 0,05
+	ELSE 
+		diskon <- 0
+	ENDIF
 	totalBayar <- pembelian - diskon*pembelian
 	OUTPUT("Total Bayar = ", totalBayar)
 END
