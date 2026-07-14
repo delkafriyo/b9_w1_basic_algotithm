@@ -8,5 +8,5 @@ BEGIN
 	diskon <- 0,05
 	ELSE diskon <- 0
 	totalBayar <- pembelian - diskon*pembelian
-	OUTPUT("Total Bayar = ", totalBayar
+	OUTPUT("Total Bayar = ", totalBayar)
 END
