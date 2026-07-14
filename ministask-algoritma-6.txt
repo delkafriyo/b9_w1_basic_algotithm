@@ -1,5 +1,5 @@
 FUNCTION HitungTotalBayar
-DEKLARASI	pembelian : float
+DEKLARASI	pembelian : int
 			diskon, totalBayar : float 
 BEGIN
 	INPUT(pembelian)
