@@ -1,0 +1,14 @@
+FUNCTION TotalBayarPelanggan
+DECLARE pListrik, harga, totalBayar : int 
+BEGIN
+    INPUT (pListrik)
+    IF (pListrik > 200) 
+        harga <- 5000
+    ELSEIF (pListrik >100)
+        harga <- 3000
+    ELSE 
+        harga <- 2000
+    ENDIF
+    totalBayar <- pListrik * harga
+    OUTPUT ("Total Bayar Pelanggan adalah ", totalBayar)
+END
