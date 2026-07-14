@@ -1,5 +1,5 @@
 FUNCTION TotalBayarPelanggan
-DECLARE pListrik, harga, totalBayar : int 
+    DECLARE pListrik, harga, totalBayar : int 
 BEGIN
     INPUT (pListrik)
     IF (pListrik > 200) 
