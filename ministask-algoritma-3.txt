@@ -2,7 +2,7 @@ Kondisi : Terdapat variable x.
 Tujuan : Tentukan apakah x bilangan ganjil atau genap.
 
 1. Mulai.
-2. Hitung modulus x : 2.
-3. Apabila hasil modulus adalah 1 maka x adalah bilangan ganjil.
-4. Apabila hasil modulus adalah 0 maka x adalah bilangan genap.  
+2. Hitung sisa hasil bagi x : 2.
+3. Apabila sisa hasil bagi adalah 1 maka x adalah bilangan ganjil.
+4. Apabila sisa hasil bagi adalah 0 maka x adalah bilangan genap.  
 5. Selesai.
