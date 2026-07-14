@@ -1,0 +1,10 @@
+Tujuan : Siswa dapat menghitung luas dan keliling lingkaran.
+
+
+1. Mulai.
+2. Siswa mengetahui nilai jari-jari lingkaran (r)
+3. Apabila nilai r habis dibagi 7 maka nilai pi = 22/7.
+4. Apabila nilai r  tidak habis dibagi 7 maka nilai pi = 3,14.
+5. Hitung luas lingkaran dengan rumus luas = pi x r x r.
+6. Hitung keliling lingkaran dengan rumus = 2 x pi x r
+7. Selesai.
