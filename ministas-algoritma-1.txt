@@ -1,8 +1,11 @@
 Memindahkan air di dalam gelas :
 
-1. Mulai
-2. Siapkan 1 wadah penampung yang kosong.
-3. Pindahkan teh ke dalam wadah kosong yang disediakan.
-4. Pindahkan kopi ke wadah A yang sudah kosong.
-5. Pindahkan teh ke wadah B yang sudah kosong.
-6. Finish.
+Kondisi : Gelas A berisi teh dan gelas B berisi kopi.
+Goals : Pindahkan teh ke gelas B dan kopi ke gelas A.
+
+1. Mulai.
+2. Siapkan 1 gelas penampung yang kosong (C).
+3. Pindahkan teh ke dalam wadah C.
+4. Pindahkan kopi ke wadah A.
+5. Pindahkan teh ke wadah B.
+6. Selesai.
