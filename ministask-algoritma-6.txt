@@ -3,10 +3,10 @@ DEKLARASI pembelian, diskon, totalBayar : int
 BEGIN
 	INPUT(pembelian)
 	IF (pembelian > 1000000) THEN 
-	diskon <= 0,1
+	diskon <- 0,1
 	ELSEIF (pembelian >= 500000) THEN
-	diskon <= 0,05
-	ELSE diskon <= 0
-	totalBayar <= pembelian - diskon*pembelian
+	diskon <- 0,05
+	ELSE diskon <- 0
+	totalBayar <- pembelian - diskon*pembelian
 	OUTPUT("Total Bayar = ", totalBayar
 END
